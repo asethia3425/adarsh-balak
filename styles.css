@@ -117,6 +117,7 @@ section h2 , section h3 , section h1 {
     background-color: var(--primary-color);
     color: white;
     text-align: center;
+    padding: 2rem;
 }
 .footer .link{
     color: white;
