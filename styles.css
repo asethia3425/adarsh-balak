@@ -118,7 +118,11 @@ section h2 , section h3 , section h1 {
     color: white;
     text-align: center;
     padding: 2rem;
+    border-top-right-radius: 1rem;
 }
 .footer .link{
     color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
