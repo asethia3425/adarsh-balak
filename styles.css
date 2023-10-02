@@ -19,7 +19,7 @@ hr{
 }
 
 .container-center{
-    max-width: 700px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -27,12 +27,13 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    /* margin: 1rem; */
+    margin-bottom: 1rem;
 }
 .link-primary{
      background-color: var(--primary-color);
      color: white;
      border-radius: 0.5rem;
+     /* display: block; */
 
 }
 
@@ -120,9 +121,16 @@ section h2 , section h3 , section h1 {
     padding: 2rem;
     border-top-right-radius: 1rem;
 }
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+}
 .footer .link{
     color: white;
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.line-below{
+    margin-bottom: 2rem;
 }
