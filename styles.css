@@ -87,14 +87,14 @@ hr{
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     /* font-size: xx-large; */
     /* margin: auto; */
     text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray-color);
 }
-.hero .hero-heading-main{
+.hero .hero-heading-main , .heading-inverted{
     color: var(--primary-color);
 }
 
@@ -133,4 +133,13 @@ section h2 , section h3 , section h1 {
 }
 .line-below{
     margin-bottom: 2rem;
+}
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+    padding-bottom: 6rem;
 }
